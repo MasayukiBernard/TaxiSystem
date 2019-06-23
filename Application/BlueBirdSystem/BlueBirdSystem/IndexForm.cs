@@ -28,6 +28,10 @@ namespace BlueBirdSystem
         ManageAdminsForm maf;
         Report_MonthlyUsesPerServiceForm rmupsf;
         Report_FavouriteVehiclesForm rfvf;
+        Report_TotalIncomeForm rtif;
+        Report_TripHistoryForm rthf;
+        Report_OngoingTripsForm rotf;
+        Report_DriverHistoryForm rdhf;
 
         private string userID = "";
         public void setID(string userID) { this.userID = userID; }
@@ -441,6 +445,46 @@ namespace BlueBirdSystem
                 rfvf = new Report_FavouriteVehiclesForm();
                 rfvf.MdiParent = this;
                 rfvf.Show();
+            }
+        }
+
+        private void TotalIncomeEarnedToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            if (rtif == null || rtif.IsDisposed)
+            {
+                rtif = new Report_TotalIncomeForm();
+                rtif.MdiParent = this;
+                rtif.Show();
+            }
+        }
+
+        private void HistoryOfCompleteTripsToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            if (rthf == null || rthf.IsDisposed)
+            {
+                rthf = new Report_TripHistoryForm();
+                rthf.MdiParent = this;
+                rthf.Show();
+            }
+        }
+
+        private void ListOfCurrenltyOngoingTripsToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            if (rotf == null || rotf.IsDisposed)
+            {
+                rotf = new Report_OngoingTripsForm();
+                rotf.MdiParent = this;
+                rotf.Show();
+            }
+        }
+
+        private void DriverTripHistoryToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            if (rdhf == null || rdhf.IsDisposed)
+            {
+                rdhf = new Report_DriverHistoryForm();
+                rdhf.MdiParent = this;
+                rdhf.Show();
             }
         }
     }

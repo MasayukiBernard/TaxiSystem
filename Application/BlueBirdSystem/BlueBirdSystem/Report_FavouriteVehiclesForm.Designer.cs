@@ -60,6 +60,7 @@
             this.cbMonth.Name = "cbMonth";
             this.cbMonth.Size = new System.Drawing.Size(219, 33);
             this.cbMonth.TabIndex = 5;
+            this.cbMonth.SelectedIndexChanged += new System.EventHandler(this.CbMonth_SelectedIndexChanged);
             // 
             // label2
             // 
@@ -84,6 +85,7 @@
             this.cbYear.Name = "cbYear";
             this.cbYear.Size = new System.Drawing.Size(219, 33);
             this.cbYear.TabIndex = 6;
+            this.cbYear.SelectedIndexChanged += new System.EventHandler(this.CbYear_SelectedIndexChanged);
             // 
             // label1
             // 

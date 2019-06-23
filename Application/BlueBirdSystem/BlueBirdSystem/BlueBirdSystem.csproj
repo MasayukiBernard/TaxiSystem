@@ -96,6 +96,12 @@
     <Compile Include="ManageDriversForm.Designer.cs">
       <DependentUpon>ManageDriversForm.cs</DependentUpon>
     </Compile>
+    <Compile Include="Report_DriverHistoryForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Report_DriverHistoryForm.Designer.cs">
+      <DependentUpon>Report_DriverHistoryForm.cs</DependentUpon>
+    </Compile>
     <Compile Include="Report_FavouriteVehiclesForm.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -107,6 +113,24 @@
     </Compile>
     <Compile Include="Report_MonthlyUsesPerServiceForm.Designer.cs">
       <DependentUpon>Report_MonthlyUsesPerServiceForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Report_OngoingTripsForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Report_OngoingTripsForm.Designer.cs">
+      <DependentUpon>Report_OngoingTripsForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Report_TotalIncomeForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Report_TotalIncomeForm.Designer.cs">
+      <DependentUpon>Report_TotalIncomeForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Report_TripHistoryForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Report_TripHistoryForm.Designer.cs">
+      <DependentUpon>Report_TripHistoryForm.cs</DependentUpon>
     </Compile>
     <Compile Include="ViewOrdersForm.cs">
       <SubType>Form</SubType>

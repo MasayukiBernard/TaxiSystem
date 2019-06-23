@@ -47,12 +47,13 @@
             this.manageOrdersToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.manageAdminsToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.reportToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.exitToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.usesPerServiceToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.favouriteVehiclesToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.totalIncomeEarnedToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.historyOfCompleteTripsToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.listOfCurrenltyOngoingTripsToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.exitToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.driverTripHistoryToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -203,17 +204,11 @@
             this.favouriteVehiclesToolStripMenuItem,
             this.totalIncomeEarnedToolStripMenuItem,
             this.historyOfCompleteTripsToolStripMenuItem,
-            this.listOfCurrenltyOngoingTripsToolStripMenuItem});
+            this.listOfCurrenltyOngoingTripsToolStripMenuItem,
+            this.driverTripHistoryToolStripMenuItem});
             this.reportToolStripMenuItem.Name = "reportToolStripMenuItem";
             this.reportToolStripMenuItem.Size = new System.Drawing.Size(68, 24);
             this.reportToolStripMenuItem.Text = "Report";
-            // 
-            // exitToolStripMenuItem
-            // 
-            this.exitToolStripMenuItem.Name = "exitToolStripMenuItem";
-            this.exitToolStripMenuItem.Size = new System.Drawing.Size(47, 24);
-            this.exitToolStripMenuItem.Text = "Exit";
-            this.exitToolStripMenuItem.Click += new System.EventHandler(this.ExitToolStripMenuItem_Click);
             // 
             // usesPerServiceToolStripMenuItem
             // 
@@ -234,18 +229,35 @@
             this.totalIncomeEarnedToolStripMenuItem.Name = "totalIncomeEarnedToolStripMenuItem";
             this.totalIncomeEarnedToolStripMenuItem.Size = new System.Drawing.Size(286, 26);
             this.totalIncomeEarnedToolStripMenuItem.Text = "Total income earned";
+            this.totalIncomeEarnedToolStripMenuItem.Click += new System.EventHandler(this.TotalIncomeEarnedToolStripMenuItem_Click);
             // 
             // historyOfCompleteTripsToolStripMenuItem
             // 
             this.historyOfCompleteTripsToolStripMenuItem.Name = "historyOfCompleteTripsToolStripMenuItem";
             this.historyOfCompleteTripsToolStripMenuItem.Size = new System.Drawing.Size(286, 26);
             this.historyOfCompleteTripsToolStripMenuItem.Text = "History of complete trips";
+            this.historyOfCompleteTripsToolStripMenuItem.Click += new System.EventHandler(this.HistoryOfCompleteTripsToolStripMenuItem_Click);
             // 
             // listOfCurrenltyOngoingTripsToolStripMenuItem
             // 
             this.listOfCurrenltyOngoingTripsToolStripMenuItem.Name = "listOfCurrenltyOngoingTripsToolStripMenuItem";
             this.listOfCurrenltyOngoingTripsToolStripMenuItem.Size = new System.Drawing.Size(286, 26);
             this.listOfCurrenltyOngoingTripsToolStripMenuItem.Text = "List of currenlty ongoing trips";
+            this.listOfCurrenltyOngoingTripsToolStripMenuItem.Click += new System.EventHandler(this.ListOfCurrenltyOngoingTripsToolStripMenuItem_Click);
+            // 
+            // exitToolStripMenuItem
+            // 
+            this.exitToolStripMenuItem.Name = "exitToolStripMenuItem";
+            this.exitToolStripMenuItem.Size = new System.Drawing.Size(47, 24);
+            this.exitToolStripMenuItem.Text = "Exit";
+            this.exitToolStripMenuItem.Click += new System.EventHandler(this.ExitToolStripMenuItem_Click);
+            // 
+            // driverTripHistoryToolStripMenuItem
+            // 
+            this.driverTripHistoryToolStripMenuItem.Name = "driverTripHistoryToolStripMenuItem";
+            this.driverTripHistoryToolStripMenuItem.Size = new System.Drawing.Size(286, 26);
+            this.driverTripHistoryToolStripMenuItem.Text = "Driver trip history";
+            this.driverTripHistoryToolStripMenuItem.Click += new System.EventHandler(this.DriverTripHistoryToolStripMenuItem_Click);
             // 
             // IndexForm
             // 
@@ -296,6 +308,7 @@
         private System.Windows.Forms.ToolStripMenuItem totalIncomeEarnedToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem historyOfCompleteTripsToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem listOfCurrenltyOngoingTripsToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem driverTripHistoryToolStripMenuItem;
     }
 }
 
