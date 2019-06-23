@@ -58,6 +58,7 @@
             this.cbYear.FormattingEnabled = true;
             this.cbYear.Items.AddRange(new object[] {
             "-- Choose Year --",
+            "2018",
             "2019"});
             this.cbYear.Location = new System.Drawing.Point(220, 54);
             this.cbYear.Name = "cbYear";
