@@ -26,6 +26,7 @@ namespace BlueBirdSystem
         ManageVehiclesForm mvf;
         ViewOrdersForm vof;
         ManageAdminsForm maf;
+        Report_MonthlyUsesPerServiceForm rmupsf;
 
         private string userID = "";
         public void setID(string userID) { this.userID = userID; }
@@ -43,6 +44,7 @@ namespace BlueBirdSystem
             customerToolStripMenuItem.Visible = false;
             driverToolStripMenuItem.Visible = false;
             masterToolStripMenuItem.Visible = false;
+            reportToolStripMenuItem.Visible = false;
             exitToolStripMenuItem.Visible = true;
 
             fileToolStripMenuItem.Visible = true;
@@ -76,13 +78,10 @@ namespace BlueBirdSystem
         public void adminMenuState()
         {
             masterToolStripMenuItem.Visible = true;
+            reportToolStripMenuItem.Visible = true;
             loggedInMenuState();
         }
 
-        private void ExitToolStripMenuItem_Click(object sender, EventArgs e)
-        {
-            this.Dispose();
-        }
 
         private void LoginToolStripMenuItem_Click(object sender, EventArgs e)
         {
@@ -416,6 +415,21 @@ namespace BlueBirdSystem
             foreach (Payment x in erasePayment)
             {
                 DB.conn.Delete(x);
+            }
+        }
+
+        private void ExitToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            this.Dispose();
+        }
+
+        private void UsesPerServiceToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            if (rmupsf == null || rmupsf.IsDisposed)
+            {
+                rmupsf = new Report_MonthlyUsesPerServiceForm();
+                rmupsf.MdiParent = this;
+                rmupsf.Show();
             }
         }
     }
