@@ -176,6 +176,9 @@
     <EmbeddedResource Include="PickupOrderForm.resx">
       <DependentUpon>PickupOrderForm.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Report_MonthlyUsesPerServiceForm.resx">
+      <DependentUpon>Report_MonthlyUsesPerServiceForm.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="ViewOrdersForm.resx">
       <DependentUpon>ViewOrdersForm.cs</DependentUpon>
     </EmbeddedResource>
