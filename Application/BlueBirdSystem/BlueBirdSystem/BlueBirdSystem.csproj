@@ -96,6 +96,12 @@
     <Compile Include="ManageDriversForm.Designer.cs">
       <DependentUpon>ManageDriversForm.cs</DependentUpon>
     </Compile>
+    <Compile Include="Report_FavouriteVehiclesForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Report_FavouriteVehiclesForm.Designer.cs">
+      <DependentUpon>Report_FavouriteVehiclesForm.cs</DependentUpon>
+    </Compile>
     <Compile Include="Report_MonthlyUsesPerServiceForm.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -175,6 +181,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="PickupOrderForm.resx">
       <DependentUpon>PickupOrderForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Report_FavouriteVehiclesForm.resx">
+      <DependentUpon>Report_FavouriteVehiclesForm.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Report_MonthlyUsesPerServiceForm.resx">
       <DependentUpon>Report_MonthlyUsesPerServiceForm.cs</DependentUpon>

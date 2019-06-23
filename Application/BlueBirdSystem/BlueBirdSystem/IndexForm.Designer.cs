@@ -227,6 +227,7 @@
             this.favouriteVehiclesToolStripMenuItem.Name = "favouriteVehiclesToolStripMenuItem";
             this.favouriteVehiclesToolStripMenuItem.Size = new System.Drawing.Size(286, 26);
             this.favouriteVehiclesToolStripMenuItem.Text = "Top 5 favourite vehicles";
+            this.favouriteVehiclesToolStripMenuItem.Click += new System.EventHandler(this.FavouriteVehiclesToolStripMenuItem_Click);
             // 
             // totalIncomeEarnedToolStripMenuItem
             // 

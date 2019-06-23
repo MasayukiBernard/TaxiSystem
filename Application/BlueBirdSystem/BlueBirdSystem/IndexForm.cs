@@ -27,6 +27,7 @@ namespace BlueBirdSystem
         ViewOrdersForm vof;
         ManageAdminsForm maf;
         Report_MonthlyUsesPerServiceForm rmupsf;
+        Report_FavouriteVehiclesForm rfvf;
 
         private string userID = "";
         public void setID(string userID) { this.userID = userID; }
@@ -430,6 +431,16 @@ namespace BlueBirdSystem
                 rmupsf = new Report_MonthlyUsesPerServiceForm();
                 rmupsf.MdiParent = this;
                 rmupsf.Show();
+            }
+        }
+
+        private void FavouriteVehiclesToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            if (rfvf == null || rfvf.IsDisposed)
+            {
+                rfvf = new Report_FavouriteVehiclesForm();
+                rfvf.MdiParent = this;
+                rfvf.Show();
             }
         }
     }
