@@ -77,3 +77,4 @@ C:\Users\ADL\Documents\GitHub\TaxiSystem\Application\BlueBirdSystem\BlueBirdSyst
 C:\Users\ADL\Documents\GitHub\TaxiSystem\Application\BlueBirdSystem\BlueBirdSystem\obj\Debug\BlueBirdSystem.Report_FavouriteVehiclesForm.resources
 C:\Users\ADL\Documents\GitHub\TaxiSystem\Application\BlueBirdSystem\BlueBirdSystem\obj\Debug\BlueBirdSystem.Report_DriverHistoryForm.resources
 C:\Users\ADL\Documents\GitHub\TaxiSystem\Application\BlueBirdSystem\BlueBirdSystem\obj\Debug\BlueBirdSystem.Report_OngoingTripsForm.resources
+C:\Users\ADL\Documents\GitHub\TaxiSystem\Application\BlueBirdSystem\BlueBirdSystem\obj\Debug\BlueBirdSystem.Report_TotalIncomeForm.resources

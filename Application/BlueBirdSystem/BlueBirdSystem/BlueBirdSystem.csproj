@@ -218,6 +218,9 @@
     <EmbeddedResource Include="Report_OngoingTripsForm.resx">
       <DependentUpon>Report_OngoingTripsForm.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Report_TotalIncomeForm.resx">
+      <DependentUpon>Report_TotalIncomeForm.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="ViewOrdersForm.resx">
       <DependentUpon>ViewOrdersForm.cs</DependentUpon>
     </EmbeddedResource>
