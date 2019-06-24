@@ -206,11 +206,17 @@
     <EmbeddedResource Include="PickupOrderForm.resx">
       <DependentUpon>PickupOrderForm.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Report_DriverHistoryForm.resx">
+      <DependentUpon>Report_DriverHistoryForm.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Report_FavouriteVehiclesForm.resx">
       <DependentUpon>Report_FavouriteVehiclesForm.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Report_MonthlyUsesPerServiceForm.resx">
       <DependentUpon>Report_MonthlyUsesPerServiceForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Report_OngoingTripsForm.resx">
+      <DependentUpon>Report_OngoingTripsForm.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="ViewOrdersForm.resx">
       <DependentUpon>ViewOrdersForm.cs</DependentUpon>
