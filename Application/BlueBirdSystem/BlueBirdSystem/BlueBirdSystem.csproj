@@ -8,10 +8,11 @@
     <OutputType>WinExe</OutputType>
     <RootNamespace>BlueBirdSystem</RootNamespace>
     <AssemblyName>BlueBirdSystem</AssemblyName>
-    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
     <Deterministic>true</Deterministic>
+    <TargetFrameworkProfile />
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <PlatformTarget>AnyCPU</PlatformTarget>
@@ -221,6 +222,9 @@
     <EmbeddedResource Include="Report_TotalIncomeForm.resx">
       <DependentUpon>Report_TotalIncomeForm.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Report_TripHistoryForm.resx">
+      <DependentUpon>Report_TripHistoryForm.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="ViewOrdersForm.resx">
       <DependentUpon>ViewOrdersForm.cs</DependentUpon>
     </EmbeddedResource>
@@ -238,6 +242,7 @@
     <Compile Include="Properties\Resources.Designer.cs">
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
     </Compile>
     <EmbeddedResource Include="RegisterForm.resx">
       <DependentUpon>RegisterForm.cs</DependentUpon>
